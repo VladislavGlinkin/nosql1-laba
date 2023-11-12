@@ -1,0 +1,3 @@
+Scala lets you write less to do more. As a high-level language, its modern features increase productivity and lead to more readable code. With Scala, you can combine both functional and object-oriented programming styles to help structure programs. 
+Scala is well suited to building fast, concurrent, and distributed systems with its JVM, JavaScript and Native runtimes. Scala prioritises interoperability, giving easy access to many ecosystems of industry-proven libraries. 
+Scala's static types help you to build safe systems by default. Smart built-in checks and actionable error messages, combined with thread-safe data structures and collections, prevent many tricky bugs before the program first runs.
