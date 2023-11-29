@@ -5,11 +5,10 @@ import scala.collection.immutable.ListMap
 import scala.io.StdIn.readChar
 
 def fromFileToMapWithCharFrequency(file_name:String, char:Char):Unit = {
-	val wordList:List[String] = Source.fromFile("text.txt").getLines.mkString.toLowerCase().split(" ").toList.sorted.distinct
+	val wordList:List[String] = Source.fromFile(file_name).getLines.mkString.toLowerCase().split(" ").toList.sorted.distinct
 	val character:Char = char
 	var characterFrequency:List[Int] = Nil
 	for (word <- wordList) {
-	        println(word.count(_ == character));
 		characterFrequency = characterFrequency :+ word.count(_ == character)	
 	}
 	val result_map = (wordList zip characterFrequency).toMap
